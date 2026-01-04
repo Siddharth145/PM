@@ -1,0 +1,6 @@
+pandas
+pm4py
+networkx
+fastapi
+pydantic
+uvicorn
