@@ -1,0 +1,14 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "devCommand": "uvicorn app:app --reload",
+  "installCommand": "pip install -r requirements.txt",
+  "framework": "fastapi",
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.11"
+    },
+    "app.py": {
+      "runtime": "python3.11"
+    }
+  }
+}
