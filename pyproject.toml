@@ -17,21 +17,4 @@ dependencies = [
     "aiofiles>=23.0.0",
 ]
 
-[tool.poetry]
-name = "process-mining-kpi-api"
-version = "1.0.0"
-description = "An API for process mining, variant analysis, and KPI calculation."
-authors = ["Your Name <your.email@example.com>"]
-packages = [{include = "app"}]
 
-[tool.poetry.dependencies]
-python = "^3.9"
-fastapi = "^0.104.0"
-pandas = "^2.0.0"
-pm4py = "^2.7.0"
-uvicorn = "^0.24.0"
-pydantic = "^2.0.0"
-python-multipart = "^0.0.6"
-aiofiles = "^23.0.0"
-
-[tool.poetry.dev-dependencies]
