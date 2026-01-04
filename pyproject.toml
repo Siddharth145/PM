@@ -2,20 +2,12 @@
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[project]
-name = "process-mining-kpi-api"
-version = "1.0.0"
-description = "An API for process mining, variant analysis, and KPI calculation."
-requires-python = ">=3.9"
-
-[tool.poetry.scripts]
-app = "app:app"
-
 [tool.poetry]
 name = "process-mining-kpi-api"
 version = "1.0.0"
 description = "An API for process mining, variant analysis, and KPI calculation."
 authors = ["Your Name <your.email@example.com>"]
+packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
